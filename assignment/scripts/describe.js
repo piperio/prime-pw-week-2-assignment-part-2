@@ -160,6 +160,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - if (temp > 39 && time >=4){
+console.log('throw away the food!');
+}
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -170,6 +174,10 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+// FIX - if (age >= minAge) {console.log 'enter'}
+console.log ('enter')
+
 let age = 21;
 const minAge = 21;
 
